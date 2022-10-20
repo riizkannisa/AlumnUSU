@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AlumnUSU</string>
+    <string name="login">Login</string>
+    <string name="alumnusu">AlumnUSU</string>
+    <string name="image_profile">Logo</string>
+    <string name="Masuk">Masuk</string>
+    <string name="Daftar">Daftar</string>
 </resources>
