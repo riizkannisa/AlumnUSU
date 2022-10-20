@@ -13,7 +13,7 @@
         android:contentDescription="@string/image_profile"
         android:src="@drawable/logousu"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="118dp" />
+        tools:layout_editor_absoluteY="240dp" />
 
     <TextView
         android:id="@+id/textView"
