@@ -16,4 +16,6 @@
     <string name="alumni2">Charles Simbolon</string>
     <string name="caption2">Info lagu batak mandailing</string>
     <string name="icon">icon</string>
+    <string name="NIM">NIM</string>
+    <string name="Password">Password</string>
 </resources>
