@@ -6,32 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".feeds">
 
-
     <TextView
-        android:id="@+id/teks1"
+        android:id="@+id/selamatdatang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Selamat Datang! "
+        android:text="@string/greeting"
         android:textStyle="bold"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:typeface="serif" />
 
-    <EditText
+    <TextView
         android:id="@+id/search_bar"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_below="@id/teks1"
+        android:layout_below="@id/selamatdatang"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="5dp"
         android:layout_marginTop="14dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
         android:background="@color/teal_700"
-        android:drawableRight="@drawable/ic_baseline_search_24"
-        android:ems="10"
         android:gravity="center"
-        android:text="cari"
-        android:textColor="@color/white" />
+        android:text="@string/cari"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:drawableRightCompat="@drawable/ic_baseline_search_24" />
 
     <TextView
         android:id="@+id/teks2"
@@ -39,8 +38,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/search_bar"
         android:layout_marginTop="14dp"
-        android:text=" Berita USU "
-        android:textSize="15dp"
+        android:text="@string/beritausu"
+        android:textSize="15sp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:typeface="serif" />
 
@@ -51,7 +50,8 @@
         android:layout_below="@id/teks2"
         android:layout_marginTop="3dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/berita_1" />
+        android:src="@drawable/berita_1"
+        android:contentDescription="@string/beritausu" />
 
     <TextView
         android:id="@+id/judul"
@@ -61,10 +61,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-13dp"
         android:background="@color/teal_700"
-        android:text="USU Digital Talent Development Through Huawei ICT Academy"
-        android:textSize="10dp"
+        android:text="@string/judulberita1"
+        android:textSize="10sp"
         android:textColor="@color/white"
-        android:textAlignment="textStart" />
+        android:textAlignment="viewStart"
+        tools:ignore="SmallSp" />
 
     <TextView
         android:id="@+id/teks3"
@@ -72,15 +73,15 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/judul"
         android:layout_marginTop="14dp"
-        android:text=" Beranda Alumni "
+        android:text="@string/beranda"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:typeface="serif" />
 
     <TableLayout
         android:id="@+id/table1"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
+        android:layout_height="130dp"
         android:layout_below="@id/teks3"
         android:layout_marginTop="14dp"
         android:stretchColumns="1"
@@ -91,14 +92,14 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
-                android:src="@drawable/foto_putri_silitonga" />
+                android:src="@drawable/foto_putri_silitonga"
+                android:contentDescription="@string/ava" />
 
             <TextView
-                android:gravity="left"
                 android:padding="10dp"
-                android:text="Putri Silitonga"
+                android:text="@string/alumni1"
                 android:textColor="@color/black" />
         </TableRow>
 
@@ -106,24 +107,32 @@
 
             <TextView
                 android:layout_column="1"
-                android:gravity="left"
                 android:padding="10dp"
-                android:text="Gade lagi buka loker wee"
+                android:text="@string/caption1"
                 android:textColor="@color/black" />
         </TableRow>
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:layout_marginLeft="45dp">
+            android:layout_height="40dp"
+            android:layout_marginStart="45dp">
 
-            <TableRow>
+            <TableRow tools:ignore="UselessParent">
 
-                <EditText android:drawableLeft="@drawable/ic_baseline_thumb_up_24" />
+                <TextView
+                    android:layout_column="1"
+                    app:drawableStartCompat="@drawable/ic_baseline_thumb_up_24" />
 
-                <EditText android:drawableLeft="@drawable/ic_baseline_comment_24" />
+                <TextView
+                    android:layout_column="2"
+                    android:layout_marginStart="10dp"
+                    app:drawableStartCompat="@drawable/ic_baseline_comment_24" />
 
-                <EditText android:drawableRight="@drawable/ic_baseline_share_24" />
+                <TextView
+                    android:layout_column="3"
+                    android:layout_marginStart="10dp"
+                    app:drawableStartCompat="@drawable/ic_baseline_share_24" />
+
 
             </TableRow>
 
@@ -133,7 +142,7 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="110dp"
+        android:layout_height="130dp"
         android:layout_below="@id/table1"
         android:layout_marginTop="14dp"
         android:stretchColumns="1">
@@ -144,14 +153,14 @@
                 android:id="@+id/profil"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
-                android:src="@drawable/charles_simbolon" />
+                android:src="@drawable/charles_simbolon"
+                android:contentDescription="@string/ava" />
 
             <TextView
-                android:gravity="left"
                 android:padding="10dp"
-                android:text="Charles Simbolon"
+                android:text="@string/alumni2"
                 android:textColor="@color/black" />
         </TableRow>
 
@@ -159,24 +168,32 @@
 
             <TextView
                 android:layout_column="1"
-                android:gravity="left"
                 android:padding="10dp"
-                android:text="Info lagu batak mandailing"
+                android:text="@string/caption2"
                 android:textColor="@color/black" />
         </TableRow>
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:layout_marginLeft="45dp">
+            android:layout_height="40dp"
+            android:layout_marginStart="45dp">
 
-            <TableRow>
+            <TableRow tools:ignore="UselessParent">
 
-                <EditText android:drawableLeft="@drawable/ic_baseline_thumb_up_24" />
+                <TextView
+                    android:layout_column="1"
+                    app:drawableStartCompat="@drawable/ic_baseline_thumb_up_24" />
 
-                <EditText android:drawableLeft="@drawable/ic_baseline_comment_24" />
+                <TextView
+                    android:layout_column="2"
+                    android:layout_marginStart="10dp"
+                    app:drawableStartCompat="@drawable/ic_baseline_comment_24" />
 
-                <EditText android:drawableRight="@drawable/ic_baseline_share_24" />
+                <TextView
+                    android:layout_column="3"
+                    android:layout_marginStart="10dp"
+                    app:drawableStartCompat="@drawable/ic_baseline_share_24" />
+
 
             </TableRow>
 
