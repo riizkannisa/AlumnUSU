@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".roomchat"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700">
+
+        <TableRow
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/profil"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/ava"
+                android:src="@drawable/charles_simbolon"
+                tools:ignore="ImageContrastCheck" />
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Irsyad (191402001)"
+                        android:textSize="20dp"
+                        android:textColor="@color/black" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="..."
+                android:textSize="25dp"
+                android:textColor="@color/black" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="290dp"
+        android:padding="15dp"
+        android:background="@color/teal_700"
+        android:text="Cad, gade itu betul?"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:background="@color/teal_700"
+        android:text="Betul kak, mau?"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:background="@color/teal_700"
+        android:text="Mau, tapi aku bisanya malam cad, aman?"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:background="@color/teal_700"
+        android:text="Gaaas kak"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:background="@color/material_dynamic_neutral90"
+        android:text="ketik pesan"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+
+</LinearLayout>

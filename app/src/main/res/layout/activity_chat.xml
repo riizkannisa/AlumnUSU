@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chat"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:text="Pesan"
+        android:textSize="25dp"
+        android:textColor="@color/black">
+
+    <TextView
+        android:id="@+id/search_bar"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:text="@string/cari"
+        android:textColor="@color/black"
+        app:drawableRightCompat="@drawable/ic_baseline_search_24"
+        tools:ignore="TextContrastCheck" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/teal_700">
+
+        <TableRow
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/profil"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/ava"
+                android:src="@drawable/charles_simbolon"
+                tools:ignore="ImageContrastCheck" />
+
+            <TableLayout
+                android:layout_height="match_parent"
+                android:layout_width="290dp"
+                android:layout_marginStart="10dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_margin="8dp"
+                        android:text="nama"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_margin="8dp"
+                        android:text="pesan"
+                        android:textColor="@color/black" />
+                </TableRow>
+            </TableLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/time"
+                android:textSize="15dp"
+                android:textColor="@color/black" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/profil"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/ava"
+                android:src="@drawable/charles_simbolon"
+                tools:ignore="ImageContrastCheck" />
+
+            <TableLayout
+                android:layout_height="match_parent"
+                android:layout_width="290dp"
+                android:layout_marginStart="10dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_margin="8dp"
+                        android:text="nama"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_margin="8dp"
+                        android:text="pesan"
+                        android:textColor="@color/black" />
+                </TableRow>
+            </TableLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/time"
+                android:textSize="15dp"
+                android:textColor="@color/black" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
