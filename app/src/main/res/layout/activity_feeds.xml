@@ -39,8 +39,8 @@
         android:layout_below="@id/search_bar"
         android:layout_marginTop="14dp"
         android:text="@string/beritausu"
-        android:textSize="15sp"
         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"
         android:typeface="serif" />
 
     <ImageView

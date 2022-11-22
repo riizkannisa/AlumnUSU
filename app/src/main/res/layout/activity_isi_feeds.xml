@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feeds">
+
+    <TextView
+        android:id="@+id/teks2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_bar"
+        android:layout_marginTop="14dp"
+        android:text="@string/beritausu"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/berita_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teks2"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/berita_1"
+        android:contentDescription="@string/beritausu" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/berita_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-13dp"
+        android:background="@color/teal_700"
+        android:text="@string/judulberita1"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:textAlignment="viewStart"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/berita_1"
+        android:layout_marginTop="45dp"
+        android:text="@string/isiBerita"
+        />
+
+
+</RelativeLayout>
