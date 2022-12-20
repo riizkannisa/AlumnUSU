@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AlumnUSU"
         tools:targetApi="31">
         <activity
+            android:name=".tracer_study"
+            android:exported="false" />
+        <activity
             android:name=".activity_login"
             android:exported="false" />
         <activity

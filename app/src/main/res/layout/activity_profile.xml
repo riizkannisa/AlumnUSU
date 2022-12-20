@@ -182,13 +182,14 @@
 
         </TableRow>
     </TableLayout>
+
     <TextView
         android:id="@+id/textView3"
-        android:layout_below="@id/tableButton"
-        android:layout_marginTop="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/tableButton"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
         android:text="@string/pendidikan"
         android:textColor="#469073"
         android:textSize="20sp"
