@@ -102,6 +102,6 @@
         android:background="@color/material_dynamic_neutral90"
         android:text="ketik pesan"
         android:textSize="20dp"
-        android:textColor="@color/black"
+        android:textColor="@color/black"/>
 
 </LinearLayout>
