@@ -1,6 +1,6 @@
 # AlumnUSU
 
-Aplikasi mobile AlumnUSU merupakan sistem tracer study yang dapat membantu Universitas untuk medata feedback dari alumni begitu juga sebaliknya menjadi lebih mudah.
+Aplikasi mobile AlumnUSU merupakan sistem tracer study yang dapat membantu Universitas untuk mendata feedback dari alumni begitu juga sebaliknya menjadi lebih mudah.
 
 
 Anggota :
