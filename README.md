@@ -1,7 +1,10 @@
 # AlumnUSU
 
 Aplikasi mobile AlumnUSU merupakan sistem tracer study yang dapat membantu Universitas untuk medata feedback dari alumni begitu juga sebaliknya menjadi lebih mudah.
+
+
 Anggota :
+
 ✿ Annisa Putri Daulay             (191402030)
 ✿ Haiqal Rizky Ramadhan           (191402054)
 ✿ Rizka Annisa Hidayat            (191402069)   
