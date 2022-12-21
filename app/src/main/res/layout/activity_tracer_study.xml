@@ -36,36 +36,40 @@
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/jawabanSoal1"
-        android:layout_below="@+id/soal1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/soal1"
         android:orientation="vertical">
-        <RadioButton 
+
+        <RadioButton
             android:id="@+id/jawaban"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
             android:text="A. KASNDLANSDAL"
-            android:textSize="18sp"
-            android:onClick="onRadioButtonClicked"/>
-        <RadioButton 
+            android:textSize="18sp" />
+
+        <RadioButton
             android:id="@+id/jawaban2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            android:onClick="onRadioButtonClicked"
             android:text="B. AJSDANDSADASD"
-            android:onClick="onRadioButtonClicked"/>
+            android:textSize="18sp" />
+
         <RadioButton
             android:id="@+id/jawaban3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:text="C.DASDASDAS"/>
+            android:text="C.DASDASDAS"
+            android:textSize="18sp" />
+
         <RadioButton
             android:id="@+id/jawaban4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:text="D. DASDASD"/>
+            android:text="D. DASDASD"
+            android:textSize="18sp" />
     </RadioGroup>
 
     <TextView
