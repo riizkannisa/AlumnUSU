@@ -172,13 +172,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ubah_profil"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                android:backgroundTint="@color/teal_700"/>
 
             <Button
                 android:id="@+id/Tracer_Study"
                 android:layout_marginStart="10dp"
                 android:text="@string/tracer_study"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                android:backgroundTint="@color/teal_700"/>
 
         </TableRow>
     </TableLayout>
