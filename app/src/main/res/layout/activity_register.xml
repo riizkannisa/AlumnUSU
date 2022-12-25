@@ -178,6 +178,7 @@
         android:layout_weight="0"
         android:backgroundTint="@color/teal_700"
         android:text="Daftar"
+        android:onClick="login"
         />
 
 

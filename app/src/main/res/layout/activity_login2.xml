@@ -65,6 +65,7 @@
                 android:layout_weight="0"
                 android:text="@string/Masuk"
                 android:backgroundTint="@color/teal_700"
+                android:onClick="home"
                 />
 
 </LinearLayout>

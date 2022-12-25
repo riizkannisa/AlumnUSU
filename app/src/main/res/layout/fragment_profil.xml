@@ -173,7 +173,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/ubah_profil"
                 android:textAllCaps="false"
-                android:backgroundTint="@color/teal_700"/>
+                android:backgroundTint="@color/teal_700"
+                android:onClick="editProfile"/>
 
             <Button
                 android:id="@+id/Tracer_Study"
