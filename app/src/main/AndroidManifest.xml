@@ -22,6 +22,15 @@
             android:name=".tracer_study"
             android:exported="false" />
         <activity
+            android:name=".roomchat"
+            android:exported="false" />
+        <activity
+            android:name=".feed"
+            android:exported="false" />
+        <activity
+            android:name=".chat"
+            android:exported="false" />
+        <activity
             android:name=".activity_login"
             android:exported="false" />
         <activity

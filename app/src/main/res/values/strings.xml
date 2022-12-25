@@ -56,13 +56,7 @@
     <string name="time">13.50</string>
     <string name="soal1">1. Sebutkan status anda saat ini</string>
     <string name="soal2">2. Kapan anda mulai mencari pekerjaan?</string>
-    <string name="isiBerita">HUMAS USU – Universitas Sumatera Utara (USU) and PT Huawei Tech Investment cooperate to develop digital talent through Huawei ICT Academy. The activity which was held at the USU Auditorium on Wednesday (09/28/2022) also presented a talk show with the theme "Building Digital Ecosystem to Develop Digital Talent Ready for Society 5.0".
-PT Huawei Tech Investment is fully committed to supporting economic development, digital transformation and the nation, including the golden vision of 2045. This is in accordance with the vision of PT Huawei Tech Investment, Bring Digital to Every Person, Home and Organization for a Fully Connected, Intelligent World.
-Rector of the Universitas Sumatera Utara, Dr. Muryanto Amin, S.Sos., M.Si in his speech said that to be able to speed up the manual to digital process, students must also be involved in the transformation process and technology transfer from companies or industry players.
-"Looking at the data so far, digital talent is still lacking. We hope that campus digitalization will be achieved quickly if it accelerates the transfer of digitalization in learning and produces digital talent needed by the industry and is supported by training which will enable lecturers and students to get certified. Accelerate the process From manual to digital, the transformation process or technology transfer from companies or industry players is one of the targets, students, "said the USU Rector.
-Director of Human Resources for Huawei Indonesia, Dani K. Ristandi, said that this collaboration would be followed up, such as recruiting internships for students. PT Huawei Tech Investment has an important role in printing and developing digital talent. Therefore, collaboration with educational institutions is expected to run smoothly.
-"Together, we have homework to collaborate in printing or developing digital talent, the gap is still quite high," said Huawei Indonesia's Human Resource Director.
-Dean of the Faculty of Computer Science and Information Technology Dr. Maya Silvi Lydia B.Sc., M.Sc also appreciates this collaboration because it is in line with the University's target to cooperate with industry.
-Later, besides being able to send students in the Certified Independent Study and Internship (MSIB) program, they can also take part in a special internship program to Huawei in order to create quality digital talents."We have collaborated with Huawei so that in addition to sending students for MSIB internships or special internships to Huawei, we will also participate in or hold an ICT Academy to provide experience to students and lecturers to be able to upgrade their skills and knowledge with certification and so on. And it's really important to create digital talents,” said the Dean of Fasilkom. (©ULC)
-</string>
+    <string name="time">9.40</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
