@@ -2,14 +2,12 @@ package com.example.alumnusu
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.alumnusu.R
 import android.content.Intent
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.Toast
-import com.example.alumnusu.activity_login
 
 class register : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
