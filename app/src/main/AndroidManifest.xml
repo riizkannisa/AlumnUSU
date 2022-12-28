@@ -25,10 +25,7 @@
             android:name=".roomchat"
             android:exported="false" />
         <activity
-            android:name=".feed"
-            android:exported="false" />
-        <activity
-            android:name=".chat"
+            android:name=".feeds"
             android:exported="false" />
         <activity
             android:name=".activity_login"
@@ -54,5 +51,7 @@
                 android:value="" />
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 </manifest>

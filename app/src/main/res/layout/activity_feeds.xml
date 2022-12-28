@@ -45,7 +45,8 @@
         android:text="@string/beritausu"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="15sp"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:textStyle="bold"/>
 
     <ImageView
         android:id="@+id/berita_1"
@@ -81,7 +82,8 @@
         android:text="@string/beranda"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="15sp"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:textStyle="bold"/>
 
     <TableLayout
         android:id="@+id/table1"
@@ -206,4 +208,26 @@
         </TableLayout>
 
     </TableLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNav"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/navigation"
+        app:itemIconTint="@color/teal_700"
+        app:itemTextColor="@color/teal_700"
+        android:scrollIndicators="left"/>
+
 </RelativeLayout>

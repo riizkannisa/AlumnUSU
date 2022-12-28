@@ -14,7 +14,8 @@
         android:layout_marginStart="15dp"
         android:text="Pesan"
         android:textSize="25dp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/search_bar"
@@ -26,9 +27,10 @@
         android:layout_marginBottom="5dp"
         android:layout_gravity="center"
         android:background="@color/teal_700"
-        android:gravity="center"
+        android:gravity="center_vertical"
         android:text="@string/cari"
         android:textColor="@color/black"
+        android:paddingStart="10dp"
         app:drawableRightCompat="@drawable/ic_baseline_search_24"
         tools:ignore="TextContrastCheck" />
 

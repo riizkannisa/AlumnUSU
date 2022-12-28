@@ -45,7 +45,8 @@
         android:text="@string/beritausu"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="15sp"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:textStyle="bold"/>
 
     <ImageView
         android:id="@+id/berita_1"
@@ -81,7 +82,8 @@
         android:text="@string/beranda"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="15sp"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:textStyle="bold"/>
 
     <TableLayout
         android:id="@+id/table1"
