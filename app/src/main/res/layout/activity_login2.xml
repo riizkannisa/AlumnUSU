@@ -24,7 +24,7 @@
         android:src="@drawable/logousu" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/TextInputLayout"
+        android:id="@+id/loginNim"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,6 +39,7 @@
             android:layout_height="wrap_content" />
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/loginPassword"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,16 +57,16 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginRight="130dp"
-                android:layout_marginLeft="130dp"
-                android:layout_marginTop="30dp"
-                android:layout_weight="0"
-                android:text="@string/Masuk"
-                android:backgroundTint="@color/teal_700"
-                android:onClick="home"
-                />
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0"
+        android:text="@string/Masuk"
+        android:backgroundTint="@color/teal_700"
+        android:onClick="home"
+        />
 
 </LinearLayout>

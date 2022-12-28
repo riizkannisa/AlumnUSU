@@ -24,14 +24,14 @@
                 android:src="@drawable/charles_simbolon"
                 tools:ignore="ImageContrastCheck" />
 
-                    <TextView
-                        android:layout_width="290dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginStart="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Irsyad (191402001)"
-                        android:textSize="20dp"
-                        android:textColor="@color/black" />
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:text="Irsyad (191402001)"
+                android:textSize="20dp"
+                android:textColor="@color/black" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -94,14 +94,31 @@
         android:textSize="20dp"
         android:textColor="@color/black" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:padding="15dp"
-        android:background="@color/material_dynamic_neutral90"
-        android:text="ketik pesan"
-        android:textSize="20dp"
-        android:textColor="@color/black"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="361dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="15dp"
+                android:hint="Ketik Pesan"
+                android:background="@color/grey"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"/>
+
+            <ImageView
+                android:id="@+id/send"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@string/ava"
+                android:src="@drawable/ic_baseline_send_24"
+                android:background="@color/teal_700" />
+        </TableRow>
+
+    </TableLayout>
+
 
 </LinearLayout>
