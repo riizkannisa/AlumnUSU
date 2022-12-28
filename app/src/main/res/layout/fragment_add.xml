@@ -73,7 +73,5 @@
                 android:text="Unggah"
                 android:textColor="@color/white"/>
         </TableRow>
-
     </TableLayout>
-
 </RelativeLayout>

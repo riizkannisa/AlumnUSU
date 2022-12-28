@@ -1,15 +1,21 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<?xml version ="1.0" encoding = "utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".feeds">
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".isi_feeds">
 
     <TextView
         android:id="@+id/teks2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/search_bar"
         android:layout_marginTop="14dp"
         android:text="@string/beritausu"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -45,8 +51,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/berita_1"
         android:layout_marginTop="45dp"
-        android:text="@string/isiBerita"
-        />
+        android:text="@string/isiBerita" />
 
 
 </RelativeLayout>
+</ScrollView>

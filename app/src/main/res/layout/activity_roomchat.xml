@@ -24,14 +24,14 @@
                 android:src="@drawable/charles_simbolon"
                 tools:ignore="ImageContrastCheck" />
 
-                    <TextView
-                        android:layout_width="290dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginStart="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Irsyad (191402001)"
-                        android:textSize="20dp"
-                        android:textColor="@color/black" />
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:text="Irsyad (191402001)"
+                android:textSize="20dp"
+                android:textColor="@color/black" />
 
             <EditText
                 android:layout_width="wrap_content"
