@@ -61,6 +61,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="selected_item">Selected item:</string>
+    <string name="halo_halo">Halo</string>
     <string-array name="fakultas">
         <item>Ilmu Komputer dan Teknologi Informasi</item>
     </string-array>
@@ -81,4 +82,7 @@
         <item>2017</item>
         <item>2018</item>
     </string-array>
+
+    <string name="toRegister">Belum punya akun? regis sekarang</string>
+    <string name="toLogin">Sudah punya akun? Login disini</string>
 </resources>
