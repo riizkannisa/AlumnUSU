@@ -7,10 +7,10 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:481897154736:android:d9dcfbdd9d3a08b3e41375",
         "android_client_info": {
           "package_name": "com.example.alumnusu"
-        }
+        },
+        "mobilesdk_app_id": "1:481897154736:android:d9dcfbdd9d3a08b3e41375"
       },
       "oauth_client": [
         {
