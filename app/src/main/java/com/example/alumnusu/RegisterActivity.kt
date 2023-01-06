@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.util.Patterns
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import com.project.core.databinding.ActivityRegisterBinding
+import com.example.alumnusu.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {
 

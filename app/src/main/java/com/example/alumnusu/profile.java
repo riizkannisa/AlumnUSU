@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.project.core.R;
 
 public class profile extends AppCompatActivity {
 

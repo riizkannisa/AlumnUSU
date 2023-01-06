@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.project.core">
+    package="com.example.alumnusu">
 
     <application
         android:allowBackup="true"
@@ -23,9 +23,6 @@
             android:name=".edit_profile"
             android:exported="false" />
         <activity
-            android:name=".Register"
-            android:exported="false" />
-        <activity
             android:name=".tracer_study"
             android:exported="false" />
         <activity
@@ -34,9 +31,6 @@
         <activity
             android:name=".feeds"
             android:exported="false" />
-        <activity
-            android:name=".activity_login"
-            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

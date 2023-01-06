@@ -5,14 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Toast
+import com.example.alumnusu.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.project.core.R
-import com.project.core.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
 
-    lateinit var binding : ActivityLoginBinding
-    lateinit var auth : FirebaseAuth
+    private lateinit var binding : ActivityLoginBinding
+    private lateinit var auth : FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityLoginBinding.inflate(layoutInflater)
@@ -52,11 +51,11 @@ class LoginActivity : AppCompatActivity() {
 
 
 
-            LoginFirebase(email,password)
+            loginFirebase(email,password)
         }
     }
 
-    private fun LoginFirebase(email: String, password: String) {
+    private fun loginFirebase(email: String, password: String) {
         auth.signInWithEmailAndPassword(email,password)
             .addOnCompleteListener(this){
                 if (it.isSuccessful){
