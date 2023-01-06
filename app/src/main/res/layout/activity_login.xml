@@ -5,12 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-
     android:background="@drawable/spalsh"
     tools:context="com.example.alumnusu.LoginActivity">
-
-
-
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"

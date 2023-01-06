@@ -7,20 +7,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:481897154736:android:f7aea156ceaa915ee41375",
         "android_client_info": {
           "package_name": "com.example.alumnusu"
-        }
+        },
+        "mobilesdk_app_id": "1:481897154736:android:d9dcfbdd9d3a08b3e41375"
       },
       "oauth_client": [
-        {
-          "client_id": "481897154736-jupu2h5h1jsmfbopicc8fn35qbrhagi1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.alumnusu",
-            "certificate_hash": "e62c163aa7660fbcd68a29de3b915f097dd76305"
-          }
-        },
         {
           "client_id": "481897154736-7gc1k7j4ik8ll06vh1tk53vcj188t414.apps.googleusercontent.com",
           "client_type": 3

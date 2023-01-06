@@ -83,6 +83,6 @@
         <item>2018</item>
     </string-array>
     <string name="email">E-mail</string>
-    <string name="toRegister">Belum punya akun? regis sekarang</string>
+    <string name="toRegister">Belum punya akun? Daftar sekarang</string>
     <string name="toLogin">Sudah punya akun? Login disini</string>
 </resources>
